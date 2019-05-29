@@ -1,5 +1,5 @@
 import numpy as np
-from app.series import normal_distribution, my_cumsum
+from controller.formulatodf import normal_distribution, my_cumsum
 
 
 def test_cumsum():
