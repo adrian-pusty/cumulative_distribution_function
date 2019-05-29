@@ -2,10 +2,10 @@ from math import inf
 
 import pandas as pd
 
-from formula import single_normal_distribution_integral_value, single_normal_distribution_value
+from app.formula import single_normal_distribution_integral_value, single_normal_distribution_value
 
 
-def my_nd(xs, std_dev, mean):
+def normal_distribution(xs, std_dev, mean):
     return pd.DataFrame([single_normal_distribution_value(x, std_dev, mean) for x in xs])
 
 
