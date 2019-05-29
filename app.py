@@ -7,6 +7,6 @@ xs, standard_deviation, mean = read_parameters("model/parameters.json")
 nd = normal_distribution(xs, standard_deviation, mean)
 cdf = cumulative_distribution_function(xs, standard_deviation, mean)
 
-plot_functions(xs, nd, cdf)
+plot_functions(nd, cdf, xs, standard_deviation, mean)
 
 
