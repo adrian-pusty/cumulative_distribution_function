@@ -3,7 +3,7 @@ import json
 import numpy as np
 
 
-def read_parameters(path):
+def read_parameters_from_json(path):
     try:
         with open(path, "r") as read_file:
             data = json.load(read_file)
